@@ -1,0 +1,23 @@
+.bar-flex {
+  display: flex;
+  width: 50%;
+}
+
+/* TEMPORARY  */
+p.flex-item-one {
+  color: white;
+}
+
+.flex-item-one {
+  width: 25%;
+  background-color: purple;
+}
+.flex-item-two {
+  width: 60%;
+  background-color: blue;
+}
+.flex-item-three {
+  width: 15%;
+  background-color: beige;
+  text-align: right;
+}
