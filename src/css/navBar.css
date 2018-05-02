@@ -1,0 +1,46 @@
+.nav-flex li {
+  color: #f1ece9;
+  padding: 15px 0;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #f1ece9;
+}
+
+.nav-links:hover {
+  color: #1FBCD3;
+  text-shadow: 0.1px 0.1px #f1ece9;
+  transition: 0.4s all ease;
+}
+
+.nav-flex {
+  top: -100px;
+  list-style-type: none;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.sticky {
+  position: fixed;
+  top: -.1px;
+  width: 100%;
+  z-index: 10;
+}
+
+  .nav-flex {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: #485058;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px solid #d7443f;
+    box-shadow: 0px 0px 0.3px 0.3px #d7443f;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+  }
+

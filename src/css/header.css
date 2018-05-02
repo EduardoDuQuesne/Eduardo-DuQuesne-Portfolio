@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 300px;
+}
+
+.eduardo {
+  color: #d7443f;
+  font-weight: 800;
+  text-align: center;
+}
+
+.my-name-is {
+  color: #f1ece9;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.subheader {
+  color: #f1ece9;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .my-name-is {
+    display: none;
+  }
+}
