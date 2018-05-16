@@ -54,13 +54,10 @@ class App extends Component {
     this.setState({width: width, height: height});
   }
 
-  updateCanvas = (ctx)  => {
-    console.log('CONTEXT: ', ctx );
-  }
-
   addClass = (className) => {
     if (className === "sticky") this.setState({"sticky": true});
   }
+  
   removeClass = (className) => {
     if (className === "sticky") this.setState({"sticky": false});
   }
