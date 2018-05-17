@@ -16,12 +16,12 @@ class Contact extends Component {
 
         <SvgBorder />
 
-        <h1 className="contact-header">
+        <h1 className="wow pulse contact-header">
           <span className="contact-line">CONTACT</span>
         </h1>
         <p className="contact-note">Please feel free to contact me!</p>
 
-      <form action="https://formspree.io/eduquesne@gmail.com" className="form-flex" method="POST">
+      <form action="https://formspree.io/eduquesne@gmail.com" className="wow fadeIn form-flex" method="POST">
           <TextFieldInput />
           <p className="submit-button" onClick={this.handleClick}>SUBMIT</p>
           <button type="submit" ref={(el) => {this.submitButton = el}}></button>

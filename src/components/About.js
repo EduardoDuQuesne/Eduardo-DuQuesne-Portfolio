@@ -16,7 +16,7 @@ class About extends Component {
 
           <div className="about-flex-item">
             <img
-              className="wow pulse about-photo"
+              className="wow fadeIn about-photo"
               src={require("../img/fun_pic.jpg")}
               alt="Profile"
             />
@@ -27,7 +27,7 @@ class About extends Component {
               <span className="submenu-title">{"< "}</span>WHO AM I ?
               <span className="submenu-title">{" >"}</span>
             </h3>
-            <p className="wow slideInRight">
+            <p className="wow fadeInUp">
               With a passion for technology and problem solving, I am a software
               developer who is always hungry to improve and learn. I love being
               part of a team that strives to work towards a greater goal and

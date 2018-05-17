@@ -10,7 +10,7 @@ class Portfolio extends Component {
     return (
       <div id="portfolio" className="portfolio">
 
-        <h1 className="portfolio-header">
+        <h1 className="wow fadeInUp portfolio-header">
           <span className="portfolio-line">PORTFOLIO</span>
         </h1>
         
