@@ -30,10 +30,10 @@ class App extends Component {
       "image": require("./img/terrible_techno.png"), 
       "link": "https://terrible-techno.firebaseapp.com/",
       "desc": `An interactive music sequencer with multiple instruments built onToneJS, Javscript, and jQuery. CRUD and authorization capabilities using Firebase. User has abilitycreate a musical composition with chord changes and the play along with a live synthesizer.` },
-      {"name": "Back-End Capstone", 
-      "image": require("./img/terrible_techno.png"), 
-      "link": "https://terrible-techno.firebaseapp.com/",
-      "desc": `An interactive music sequencer with multiple instruments built onToneJS, Javscript, and jQuery. CRUD and authorization capabilities using Firebase. User has abilitycreate a musical composition with chord changes and the play along with a live synthesizer.` }
+      {"name": "Harmony Train", 
+      "image": require("./img/harmony-train-home.png"), 
+      "link": "https://github.com/EduardoDuQuesne/harmony-train",
+      "desc": `A harmonic ear training app built with React, PostgreSQL, Sequelize, ExpressJS, and ToneJS. User is given a musical chord progression and has to guess which chords are being played. All statistics are stored in the database and the user is shown areas that need improvement. ` }
     ]
   }
   

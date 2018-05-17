@@ -16,7 +16,7 @@ class About extends Component {
 
           <div className="about-flex-item">
             <img
-              className="wow hinge about-photo"
+              className="wow fadeIn about-photo"
               src={require("../img/fun_pic.jpg")}
               alt="Profile"
             />

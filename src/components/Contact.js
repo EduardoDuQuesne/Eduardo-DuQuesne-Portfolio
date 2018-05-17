@@ -21,7 +21,7 @@ class Contact extends Component {
         </h1>
         <p className="contact-note">Please feel free to contact me!</p>
 
-      <form action="https://formspree.io/eduquesne@gmail.com" className="wow pulse form-flex" method="POST">
+      <form action="https://formspree.io/eduquesne@gmail.com" className="wow fadeIn form-flex" method="POST">
           <TextFieldInput />
           <p className="submit-button" onClick={this.handleClick}>SUBMIT</p>
           <button type="submit" ref={(el) => {this.submitButton = el}}></button>
